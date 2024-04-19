@@ -1,4 +1,4 @@
-fn merge_sort<T: Ord + Clone>(arr: &mut [T]) {
+pub fn merge_sort<T: Ord + Clone>(arr: &mut [T]) {
     if arr.len() <= 1 {
         return;
     }
