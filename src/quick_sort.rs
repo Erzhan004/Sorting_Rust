@@ -1,4 +1,4 @@
-fn quicksort<T: Ord>(arr: &mut [T]) {
+pub fn quicksort<T: Ord>(arr: &mut [T]) {
     if arr.len() <= 1 {
         return;
     }
