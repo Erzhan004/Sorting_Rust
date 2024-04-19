@@ -1,4 +1,4 @@
-fn selection_sort<T: Ord>(arr: &mut [T]) {
+pub fn selection_sort<T: Ord>(arr: &mut [T]) {
     let len = arr.len();
     for i in 0..len {
         let mut min_idx = i;
